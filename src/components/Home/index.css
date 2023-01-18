@@ -1,0 +1,39 @@
+.light-mode-home-page-container {
+  display: flex;
+  background-color: #000000;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dark-mode-home-page-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home-bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.home-pic {
+  width: 250px;
+}
+
+@media (max-width: 575px) {
+  .home-pic {
+    width: 160px;
+  }
+}
+
+.light-mode-home-heading {
+  color: #1e293b;
+}
+
+.dark-mode-home-heading {
+  color: #ffffff;
+}

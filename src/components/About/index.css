@@ -1,0 +1,39 @@
+.light-mode-about-page-container {
+  display: flex;
+  background-color: #000000;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dark-mode-about-page-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.about-bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.about-pic {
+  width: 250px;
+}
+
+@media (max-width: 575px) {
+  .about-pic {
+    width: 160px;
+  }
+}
+
+.light-mode-about-heading {
+  color: #1e293b;
+}
+
+.dark-mode-about-heading {
+  color: #ffffff;
+}

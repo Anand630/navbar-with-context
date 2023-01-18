@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.light-mode-not-found-page-container {
+  display: flex;
+  background-color: #000000;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dark-mode-not-found-page-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.not-found-bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.not-found-pic {
+  width: 250px;
+}
+
+@media (max-width: 575px) {
+  .not-found-pic {
+    width: 160px;
+  }
+}
+
+.light-mode-not-found-heading {
+  color: #1e293b;
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dark-mode-not-found-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.light-mode-description {
+  color: #1e293b;
+  font-family: Roboto;
+}
+
+.dark-mode-description {
+  color: #ffffff;
+  font-family: Roboto;
+}
